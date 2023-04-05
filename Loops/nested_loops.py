@@ -21,3 +21,13 @@ for i in range(1, 11):
         print(i*j, end=' ')
     print()  # use debugger to explain
     
+print("\n#nested loops --> exmple - 3")
+# # multiplication table in school
+for i in range(1, 13):
+    # nested loop
+    # to iterate from 1 to 10
+    for j in range(1, 13):
+        # print multiplication
+        # default end \n was replaced with a space here to stay at the same line
+        print(i*j, end=' ')
+    print()  # use debugger to explain

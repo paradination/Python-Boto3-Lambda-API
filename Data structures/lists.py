@@ -34,6 +34,7 @@ print(my_custom_list)
 # # length of list
 print('\n# length of the list')
 print(len(fruits))
+print(len(my_custom_list))
 
 # # access a specific element in list
 print('\n# access a specific element in list')
@@ -42,7 +43,7 @@ print(fruits[0])
 print(fruits[-1])
 print(fruits[-2])
 
-# # slicing lists
+# # # slicing lists
 print('\n# slicing lists')
 print(fruits[0:2])
 print(fruits[1:4])
@@ -70,6 +71,11 @@ print('\n# sort() the list')
 fruits.sort()
 print(fruits)
 
+# sort the list in reverse
+print('\n# sort() the list in reverse')
+fruits.sort(reverse=True)
+print(fruits)
+
 # # insert item at a particular index
 print('\n# insert item at a particular index')
 fruits.insert(1,'grapes')
@@ -95,7 +101,7 @@ print('\n# list with dictionaries inside')
 marks = [{"name": "vamsi", "marks": 50}, {"name": "avinash",
                                           "marks": 60}, {"name": "showmik", "marks": 70}, ]
 print(marks)
-
+print(len(marks))
 
 # # clear a list
 print('\n # clear a list')

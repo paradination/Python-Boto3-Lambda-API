@@ -12,7 +12,7 @@ customer_name = 'vamsi'
 is_bill_paid = False 
 price = 15.05
 
-print('toal bill to be paid: ', items_count * price)
+print('total bill to be paid: ', items_count * price)
 
 
 # To get the RDS database credentials from SSM parameter store

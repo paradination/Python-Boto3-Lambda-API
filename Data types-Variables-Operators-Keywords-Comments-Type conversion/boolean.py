@@ -14,7 +14,7 @@ print(10 == 9)
 print(10 < 9)
 
 
-# print the type of data, using python keyword called type
+# # print the type of data, using python keyword called type
 print(1 == 1, type(1 == 1))
 x = 5 > 4
 print(x, type(x))

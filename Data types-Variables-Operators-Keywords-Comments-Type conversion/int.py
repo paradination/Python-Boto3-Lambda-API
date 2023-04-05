@@ -15,5 +15,4 @@ print(type(2))
 print(type(a))
 print(type(b))
 print(type(item_quantity))
-
 print(type(4.5))

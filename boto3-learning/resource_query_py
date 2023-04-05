@@ -1,0 +1,16 @@
+#get with API calls to get all
+
+import boto3
+import json
+
+session = session = boto3.session.Session(region_name="us-east-1")
+dynamodb = session.resource('dynamodb')
+table = dynamodb.Table('paradin-clients')
+
+response = table.scan(
+    TableName='paradin-clients',
+    Select='ALL_ATTRIBUTES'
+)
+
+for x in response["Items"]:
+    print(x)
